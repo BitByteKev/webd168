@@ -1,10 +1,34 @@
+body {
+    background-color: burlywood;
+}
+
+div#introduction {
+    border-style: solid;
+    border-color: green;
+    margin: 100px 200px 100px 200px;
+}
+
 img {
-    height: 300px;
-    width: 200px;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    font-size: 3rem
 }
 
 div#introduction {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+}
+
+div#image-gap {
+    display: flex;
+    justify-content: space-between;
+}
