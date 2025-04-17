@@ -22,7 +22,7 @@ h1 {
   font-family: sans-serif;
 }
 
-p#intro-p {
+#intro-p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 75%;
@@ -41,7 +41,7 @@ div#visited-cities {
   align-items: center;
 }
 
-p#award-p {
+#award-p {
   font-size: 24px;
   margin-left: 100px;
   margin-right: 100px;
