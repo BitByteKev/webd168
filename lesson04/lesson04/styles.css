@@ -4,7 +4,7 @@
   box-sizing: border-box; /* Ensures padding and borders are included in element's total width/height */
 }
 body {
-  font-family: 'Poppins', sans-serif; /* Sets the font style */
+  font-family: "Poppins", sans-serif; /* Sets the font style */
   line-height: 1.6; /* Increases line spacing for readability */
 }
 
@@ -55,19 +55,19 @@ footer {
   text-align: center; /* Centers text alignment */
 }
 .hero-home-image {
-  background-image: url('images/coast.jpg'); /* Sets background image */
+  background-image: url("images/coast.jpg"); /* Sets background image */
 }
 .hero-activities-image {
-  background-image: url('images/trail.jpg'); /* Sets background image */
+  background-image: url("images/trail.jpg"); /* Sets background image */
 }
 .hero-yurt-image {
-  background-image: url('images/yurt.jpg'); /* Sets background image */
+  background-image: url("images/yurt.jpg"); /* Sets background image */
 }
 .hero-reservations-image {
-  background-image: url('images/reservations.jpg'); /* Sets background image */
+  background-image: url("images/reservations.jpg"); /* Sets background image */
 }
 .hero-text h1 {
-  font-family: 'Style Script', sans-serif; /* Uses a decorative font */
+  font-family: "Style Script", sans-serif; /* Uses a decorative font */
   font-size: 3rem; /* Sets large font size */
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 1); /* Adds a dark shadow for contrast */
 }
@@ -112,7 +112,7 @@ footer {
   font-size: 1.3rem; /* Adjusts font size */
 }
 .resort {
-  color: #5C7fa3; /* Sets text color */
+  color: #5c7fa3; /* Sets text color */
   font-weight: bold; /* Makes text bold */
 }
 .contact {
@@ -151,7 +151,8 @@ label {
   margin-bottom: 5px;
   color: #333;
 }
-input, textarea {
+input,
+textarea {
   width: 100%; /* Full width for better usability */
   padding: 10px;
   margin-bottom: 15px;
@@ -163,7 +164,8 @@ textarea {
   resize: vertical; /* Allow users to resize vertically only */
   min-height: 80px; /* Set a reasonable minimum height */
 }
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-color: #007bff; /* Highlight input fields when focused */
   outline: none;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
@@ -191,8 +193,8 @@ button:hover {
 /* Responsive Design */
 @media (max-width: 600px) {
   form {
-      width: 90%;
-      padding: 15px;
+    width: 90%;
+    padding: 15px;
   }
 }
 
