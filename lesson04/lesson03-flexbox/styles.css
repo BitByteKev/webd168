@@ -21,6 +21,7 @@ body {
 
 /* Card styling */
 .card {
+  flex-grow: 1; /* Allows the card to grow and fill available space */
   background-color: #fff; /* Sets the background color of the card to white */
   border-radius: 10x; /* Rounds the corners of the card */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); /* Adds a dark shadow effect to the card */
