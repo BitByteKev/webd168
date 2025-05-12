@@ -1,4 +1,3 @@
-<!-- Style SVG Logo -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,15 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Tailwind CSS CDN script goes here -->
-    <script src="https://cdn.tailwindcss.com/"></script>
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
       html {
         scroll-behavior: smooth;
@@ -28,16 +19,15 @@
     </style>
   </head>
 
-  <body class="bg-gray-100 text-gray-800 font-[lato]">
+  <body class="bg-gray-100 text-gray-800 font-[Raleway]">
     <!-- Header -->
     <header
-      class="fixed top-0 left-0 right-0 z-50 relative bg-cover bg-center bg-gray-800 pb-12"
+      class="fixed top-0 right-0 left-0 z-50 relative bg-cover bg-center w-full h-auto"
       style="background-image: url('header.jpg')"
     >
       <div
-        class="container mx-auto p-4 flex justify-between items-center text-white"
+        class="container mx-auto p-4 flex justify-between items-center text-yellow-400"
       >
-        <!-- Logo -->
         <!-- SVG Logo -->
         <svg
           class="w-auto h-10 md:h-12 fill-yellow-400"
@@ -52,6 +42,18 @@
             font-weight="600"
             font-size="24"
           >
+            My Company
+          </text>
+        </svg>
+
+        <!-- SVG Logo -->
+        <svg
+          class=""
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox=""
+          aria-label="My Company Logo"
+        >
+          <text x="0" y="" font-family="" font-weight="" font-size="">
             My Company
           </text>
         </svg>
@@ -82,17 +84,17 @@
           >
           <a
             href="#"
-            class="bg-white/50 hover:bg-blue-400/70 text-black py-2 px-4 rounded transition duration-200"
+            class="bg-white/50 hover:bg-white/70 text-black py-2 px-4 rounded transition duration-200"
             >Our Clients</a
           >
           <a
             href="#"
-            class="bg-white/50 hover:bg-blue-400/70 text-black py-2 px-4 rounded transition duration-200"
+            class="bg-white/50 hover:bg-white/70 text-black py-2 px-4 rounded transition duration-200"
             >About Us</a
           >
           <a
             href="#"
-            class="bg-white/50 hover:bg-blue-400/70 text-black py-2 px-4 rounded transition duration-200"
+            class="bg-white/50 hover:bg-white/70 text-black py-2 px-4 rounded transition duration-200"
             >Careers</a
           >
         </nav>
@@ -101,7 +103,7 @@
       <!-- Mobile Nav Menu -->
       <div
         id="mobile-menu"
-        class="md:hidden hidden font-semibold px-4 pb-4 space-y-2"
+        class="md:hidden font-semibold px-4 pb-4 space-y-2"
         role="navigation"
       >
         <a href="#" class="block hover:text-white">Home</a>
@@ -116,17 +118,16 @@
         <h2 class="text-3xl mt-4">Donec pulvinar ullamcorper metus</h2>
         <a
           href="#"
-          class="inline-block bg-blue-400 text-black py-2 px-6 my-6 rounded hover:bg-white/70"
+          class="inline-block bg-blue-400 text-black py-2 px-6 my-6 rounded hover:bg-white/50"
+          >Learn More</a
         >
-          Learn More
-        </a>
       </div>
     </header>
-    <main class="height-screen pt-10">
-      <section id="info" class="scroll mt-5 py-16">
+    <main>
+      <section id="info" class="scroll-mt-20 py-16">
         <div class="container mx-auto px-4">
           <div class="text-center mb-12">
-            <h2 class="text-4xl font-light mb-4">
+            <h2 class="text-3xl font-semibold">
               Graeco feugiat intellegam at vix
             </h2>
           </div>
@@ -195,7 +196,7 @@
           <!-- Newsletter Form -->
           <div class="sm:w-1/2">
             <form>
-              <label for="exampleEmailInput" class="text-md"
+              <label for="exampleEmailInput" class="text-sm"
                 >Sign up for our newsletter</label
               >
               <div class="mt-2 flex">
@@ -207,7 +208,7 @@
                   aria-label="Email address"
                 />
                 <input
-                  class="bg-blue-600 text-white px-4 py-2 rounded-r-md hover:bg-blue-500 cursor-pointer"
+                  class="bg-blue-500 text-black px-4 py-2 rounded-r-md hover:bg-blue-400 cursor-pointer"
                   type="submit"
                   value="Submit"
                   aria-label="Submit form"
@@ -219,7 +220,7 @@
           <!-- Footer Text -->
           <div class="md:w-1/2 text-sm md:text-right text-center mt-4 md:mt-0">
             <p>
-              © Kevin Cromley,
+              © Marianne Gibson,
               <!-- Placeholder where the current year will be filled in with JavaScript. -->
               <span id="year"></span>.
             </p>
