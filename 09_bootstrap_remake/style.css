@@ -1,0 +1,52 @@
+body {
+  background-color: burlywood;
+}
+
+div#introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-color: green;
+  margin: 100px 200px 100px 200px;
+  padding: 20px 20px 20px 20px;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+#intro-p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 75%;
+}
+
+div#image-gap {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+div#visited-cities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#award-p {
+  font-size: 24px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ul {
+  list-style: none;
+}
