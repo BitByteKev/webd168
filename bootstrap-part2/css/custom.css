@@ -11,4 +11,14 @@ caption {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-}/*# sourceMappingURL=custom.css.map */
+} /*# sourceMappingURL=custom.css.map */
+
+img {
+  transition: transform 1s, opacity 1.5s;
+  opacity: 0.5;
+}
+
+img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
