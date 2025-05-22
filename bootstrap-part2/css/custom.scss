@@ -12,3 +12,23 @@ caption {
     padding-bottom: 1rem;;
   }
  }
+img {
+  transition: transform 1s, opacity 1.5s;
+  opacity: 0.5;
+}
+
+img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.selfie {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+  object-fit: cover;
+}

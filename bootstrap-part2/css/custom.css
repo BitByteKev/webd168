@@ -11,8 +11,7 @@ caption {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-} /*# sourceMappingURL=custom.css.map */
-
+}
 img {
   transition: transform 1s, opacity 1.5s;
   opacity: 0.5;
@@ -22,3 +21,16 @@ img:hover {
   transform: scale(1.1);
   opacity: 1;
 }
+
+.selfie {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  shape-outside: circle();
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+} /*# sourceMappingURL=custom.css.map */
