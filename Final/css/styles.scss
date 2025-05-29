@@ -57,3 +57,8 @@ footer {
     padding: 1rem 1rem
   }
 }
+
+input, textarea {
+  box-shadow: 0.25rem 0.25rem 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
