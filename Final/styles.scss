@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+$font-family: 'Original Surfer', cursive;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#about-me, #portfolio-description {
+  max-width: 60ch;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
+#logo {
+  font-family: 'Original Surfer';
+}
+
+#hero h1 {
+  font-family: 'Original Surfer', cursive;
+  color: white;
+  text-align: center;
+}
+
+#about, #languages, #portfolio, #contact {
+  font-family: $font-family
+}
+
+
+footer {
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+#my-portfolio {
+    height: 100vh;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem
+
+}
+
+@media (max-width: 768px) {
+  #my-portfolio {
+    height: auto;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem
+  }
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Portfolio Home Page for Kevin Cromley" />
+    <meta name="author" content="Kevin Cromley" />
+    <title>Portfolio - Kevin Cromley</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar in tailwind css -->
+    <nav
+      class="bg-orange-500 opacity-50 hover:opacity-70 transition-opacity duration-150"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <!-- Logo / Title -->
+          <div
+            id="logo"
+            aria-label="logo"
+            class="flex-shrink-0 text-white font-bold text-xl font-[Original Surfer]"
+          >
+            Kevin Cromley
+          </div>
+
+          <!-- Hamburger Button -->
+          <div class="sm:hidden">
+            <button id="menu-toggle" class="text-white focus:outline-none">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Menu Items -->
+          <div class="hidden sm:flex space-x-4" id="menu">
+            <a
+              href="./index.html"
+              class="text-white hover:bg-orange-400 hover:text-black px-3 py-2 rounded-md text-sm font-medium"
+              >Home</a
+            >
+            <a
+              href="./portfolio.html"
+              class="text-white hover:bg-orange-400 hover:text-black px-3 py-2 rounded-md text-sm font-medium"
+              >Portfolio</a
+            >
+            <a
+              href="./contact.html"
+              class="text-white hover:bg-orange-400 hover:text-black px-3 py-2 rounded-md text-sm font-medium"
+              >Contact</a
+            >
+          </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div
+          class="sm:hidden hidden flex-col space-y-2 mt-2 py-1"
+          id="mobile-menu"
+        >
+          <a
+            href="./index.html"
+            class="text-white hover:bg-lime-600 px-3 py-1 rounded-md text-sm font-medium"
+            >Home</a
+          >
+          <a
+            href="./portfolio.html"
+            class="text-white hover:bg-lime-600 px-3 py-1 rounded-md text-sm font-medium"
+            >Portfolio</a
+          >
+          <a
+            href="./contact.html"
+            class="text-white hover:bg-lime-600 px-3 py-1 rounded-md text-sm font-medium"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Portfolio section -->
+    <section id="my-portfolio" class="bg-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2
+          id="portfolio"
+          aria-label="portfolio"
+          role="heading"
+          class="text-4xl font-semibold text-center mb-4 text-orange-400"
+        >
+          My Portfolio
+        </h2>
+        <p id="" class="text-center text-gray-700 mb-8">
+          Here are some of my projects that I have worked on. Click on the
+          images to view the projects. These projects were all made using design
+          principles and technologies such as elementor and webflow. Feel free
+          to explore.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          <a href="https://sdhaulinganddemo.com" class="block">
+            <img
+              src="images/sdhd.jpg"
+              alt="Portfolio Project 1"
+              class="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-150"
+            />
+          </a>
+          <a href="https://www.brightnshine.org/" class="block">
+            <img
+              src="images/shine.jpg"
+              alt="Portfolio Project 2"
+              class="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-150"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-orange-500 opacity-50 text-white py-6 hover:opacity-70 transition-opacity duration-150"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <p class="text-sm">&copy; 2025 Kevin Cromley</p>
+        <p class="text-sm mt -2">
+          <a
+            href="https://github.com/BitByteKev"
+            class="text-black hover:text-gray-400"
+            >Github</a
+          >
+          |
+          <a
+            href="https://www.linkedin.com/in/kevin-cromley-ii-6541a0319"
+            class="text-black hover:text-gray-400"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script>
+    document
+      .getElementById("menu-toggle")
+      .addEventListener("click", function () {
+        const mobileMenu = document.getElementById("mobile-menu");
+        mobileMenu.classList.toggle("hidden");
+      });
+  </script>
+</html>
